@@ -6,15 +6,13 @@
      * @author Luke Bullard
      */
 
-    namespace Lbullard\Datavault2;
-
     const SATELLITE_LATEST = -1;
     const DV2_NOT_IMPLEMENTED = -1;
     const DV2_ERROR = -2;
     const DV2_SUCCESS = 1;
     const DV2_EXISTS = 2;
 
-    class Utility
+    class DV2_Utility
     {
         /**
          * Calculate the Hash of Data

@@ -5,8 +5,6 @@
      * 
      * @author Luke Bullard
      */
-    
-    namespace Lbullard\Datavault2;
 
     use Aws\DynamoDb\DynamoDbClient;
 

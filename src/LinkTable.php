@@ -5,8 +5,6 @@
      * 
      * @author Luke Bullard
      */
-    
-    namespace Lbullard\Datavault2;
 
     /**
      * An in-memory Table of Links

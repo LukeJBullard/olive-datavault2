@@ -13,9 +13,18 @@
      */
     class MOD_datavault2
     {
-        public function __constructor()
+        public function __construct()
         {
-            require_once("vendor/autoload.php");
+            require_once("src/Utility.php");
+            require_once("src/Hub.php");
+            require_once("src/Satellite.php");
+            require_once("src/Link.php");
+            require_once("src/HubTable.php");
+            require_once("src/SatelliteTable.php");
+            require_once("src/LinkTable.php");
+            require_once("src/DynamoHubTable.php");
+            require_once("src/DynamoLinkTable.php");
+            require_once("src/DynamoSatelliteTable.php");
         }
     }
 ?>

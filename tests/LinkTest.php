@@ -4,7 +4,11 @@
      *
      *  @author Luke Bullard
      */
-    class LinkTest extends PHPUnit_Framework_TestCase{
+
+     require_once("../src/Link.php");
+
+    class LinkTest extends PHPUnit_Framework_TestCase
+    {
         
         /**
          * Test to ensure there are no syntax errors in the class
@@ -13,7 +17,7 @@
          */
         public function testSyntaxError()
         {
-            $var = new Lbullard\Datavault2\Link("data_Source","2010-08-10 23:40:01",array(
+            $var = new Link("data_Source","2010-08-10 23:40:01",array(
                 "hub" => "value",
                 "hub2" => "value2"
             ));

@@ -6,8 +6,6 @@
      * @author Luke Bullard
      */
 
-    namespace Lbullard\Datavault2;
-
      /**
      * A collection of Hubs
      * Stores the Hubs for runtime in memory

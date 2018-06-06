@@ -6,7 +6,7 @@
      * @author Luke Bullard
      */
 
-    namespace Lbullard\Datavault2;
+    require_once("Utility.php");
 
     /**
      * A Data Vault 2.0 Hub
@@ -81,7 +81,7 @@
          */
         public function calculateHash()
         {
-            $this->m_hashKey = Utility::calculateDV2Hash($this->m_dataFieldValue);
+            $this->m_hashKey = DV2_Utility::calculateDV2Hash($this->m_dataFieldValue);
             return $this->m_hashKey;
         }
 

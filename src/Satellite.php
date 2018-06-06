@@ -6,7 +6,7 @@
      * @author Luke Bullard
      */
 
-    namespace Lbullard\Datavault2;
+    require_once("Utility.php");
 
     /**
      * A structure to model a Data Vault 2.0 satellite.
@@ -43,7 +43,7 @@
          */
         public function calculateHashDiff()
         {
-            $this->m_hashDiff = Utility::calculateDV2Hash($this->m_data);
+            $this->m_hashDiff = DV2_Utility::calculateDV2Hash($this->m_data);
             return $this->m_hashDiff;
         }
 

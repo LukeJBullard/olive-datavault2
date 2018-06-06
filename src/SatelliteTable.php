@@ -6,8 +6,6 @@
      * @author Luke Bullard
      */
 
-    namespace Lbullard\Datavault2;
-
     /**
      * A collection of Satellites with in-memory storage for runtime.
      * This class would usually be built upon for use with persistent storage systems.
