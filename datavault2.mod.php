@@ -22,9 +22,6 @@
             require_once("src/HubTable.php");
             require_once("src/SatelliteTable.php");
             require_once("src/LinkTable.php");
-            require_once("src/DynamoHubTable.php");
-            require_once("src/DynamoLinkTable.php");
-            require_once("src/DynamoSatelliteTable.php");
         }
     }
 ?>
